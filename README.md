@@ -13,7 +13,7 @@ This repository contains the code from the study by Cordero et al. (2024). The i
 ## Installation
 1. **Clone the repository**:
     ```sh
-    git clone (https://github.com/S-RobertsLab/Cordero-et-al.-2024.git)
+    git clone https://github.com/S-RobertsLab/Cordero-et-al.-2024.git
     cd Cordero-et-al.-2024
     ```
 2. **Set up a virtual environment**:
