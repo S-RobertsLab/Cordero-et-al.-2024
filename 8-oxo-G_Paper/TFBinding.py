@@ -125,7 +125,7 @@ def main(tf_map, mutations_bed, output_name):
         plot_mutations(counts_file, show_dots=True)
 
 if __name__ == '__main__':
-    tf_map = Path('/media/cam/Working/8-oxodG/hmces/TF_Binding/DNAse_filtered_expanded.bed')
-    mutations_bed = Path('/media/cam/Working/8-oxodG/lesion_files/vcf/SRR_treated_cellular_69-70_proteomutics/SRR_treated_cellular_69-70.mut')
+    tf_map = Path('tf_map')
+    mutations_bed = Path('mutations')
     output_name = mutations_bed.parent / (mutations_bed.stem + '_filtered_tf.intersect')
     main(tf_map, mutations_bed, output_name)

@@ -70,5 +70,5 @@ def graph_flanking_bases(input_filename):
     plt.show()
 
 if __name__ == '__main__':
-    input_filename = '/media/cam/Working/8-oxodG/hmces/T_deletion_analysis/WT_KBr_DEL.bed'
+    input_filename = 'filename'
     graph_flanking_bases(input_filename)
